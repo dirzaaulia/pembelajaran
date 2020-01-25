@@ -66,10 +66,10 @@
                         </ul>
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="index.php"><b>Beranda</b></a>
+                                <a class="nav-link text-white" href="index.php">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="kelas.php">Kelas</a>
+                                <a class="nav-link text-white" href="kelas.php"><b>Kelas</b></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
@@ -90,68 +90,81 @@
 
             <div class="container">
                 <div class="row mt-5">
-                    <h3 class="text-primary">Daftar Mata Kuliah</h3>
+                    <h3 class="text-primary">Kelas Yang Diikuti</h3>
                 </div>
-                <div class="row">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Pencarian" aria-label="Pencarian"
-                            aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-primary" type="button" id="button-addon2">
-                                <i class="fas fa-search"></i>
-                            </button>
+                <div class="row mt-2">
+                    <span><b>Aktivitas Terakhir</b></span>
+                </div>
+                <div class="row mt-2">
+                    <div class="card w-100">
+                        <div class="card-header bg-primary text-white">
+                            <div class="row">
+                                <span class="text-center ml-3 mt-1"><b>Basis Data 1</b></span>
+                                <a href="page1.php" class="btn btn-outline-light btn-sm ml-auto" role="button" aria-pressed="true">Lanjutkan</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Terakhir kali diikuti 25 Januari 2020 - 16:06 WIB</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-3">
-                        <div class="d-flex" id="wrapper">
-                            <!-- Sidebar -->
-                            <div class="border-right" id="sidebar-wrapper">
-                                <div class="sidebar-heading"><b>Basis Data</b></div>
-                                <div class="list-group list-group-flush">
-                                    <a href="#" class="list-group-item list-group-item-action">Basis Data 1</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Basis Data 2</a>
+                <div class="row mt-5">
+                    <span><b>Mata Kuliah Yang Diikuti</b></span>
+                </div>
+                <div class="row mt-2">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">Basis Data 2</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.ASJLFJSALHFSAJLHASFDLKJASLHFASLKFLSKAJFJLKSA</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button" aria-pressed="true">Lanjutkan</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Terakhir kali diikuti 24 Januari 2020 - 13:03 WIB</small>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 10%;"></div>
                                 </div>
-                                <div class="sidebar-heading mt-3"><b>Pemrograman</b></div>
-                                <div class="list-group list-group-flush">
-                                    <a href="#" class="list-group-item list-group-item-action">Algoritma dan Pemrograman</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Struktur Data</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Pemrograman Visual</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Pemrograman Mobile</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Aplikasi Web I</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Aplikasi Web II</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">Algoritma dan Pemrograman</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.ASJLFJSALHFSAJLHASFDLKJASLHFASLKFLSKAJFJLKSA</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button" aria-pressed="true">Lanjutkan</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Terakhir kali diikuti 23 Januari 2020 - 12:02 WIB</small>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 5%;"></div>
                                 </div>
                             </div>
-                            <!-- /#sidebar-wrapper -->
                         </div>
-                    </div>
-                    <div class="col-9">
-                        <div class="card mb-3">
-                            <h5 class="card-header bg-primary text-white">Basis Data 1</h5>
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">Struktur Data</div>
                             <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional
-                                    content.</p>
-                                <a href="#" class="btn btn-outline-primary">Daftar</a>
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.ASJLFJSALHFSAJLHASFDLKJASLHFASLKFLSKAJFJLKSA</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button" aria-pressed="true">Lanjutkan</a>
                             </div>
-                        </div>
-                        <div class="card mb-3">
-                            <h5 class="card-header bg-primary text-white">Basis Data 2</h5>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional
-                                    content.</p>
-                                <a href="#" class="btn btn-outline-primary">Daftar</a>
-                            </div>
-                        </div>
-                        <div class="card mb-3">
-                            <h5 class="card-header bg-primary text-white">Algoritma dan Pemrograman</h5>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional
-                                    content.</p>
-                                <a href="#" class="btn btn-outline-primary">Daftar</a>
+                            <div class="card-footer">
+                                <small class="text-muted">Terakhir kali diikuti 22 Januari 2020 - 11:01 WIB</small>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 1%;"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
