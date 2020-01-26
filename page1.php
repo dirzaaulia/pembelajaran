@@ -28,6 +28,9 @@
     <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/53871d42e6.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -36,11 +39,18 @@
 
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading"><b>Introduction To SQL</b></div>
+            <div class="sidebar-heading"><b>Basis Data 1</b></div>
             <div class="list-group list-group-flush">
-                <a href="page1.php" class="list-group-item list-group-item-action bg-primary text-white">Tipe Data Pada
-                    SQL</a>
-                <a href="page2.php" class="list-group-item list-group-item-action bg-light">Mendefinisikan Tabel</a>
+                <a href="page1.php" class="list-group-item list-group-item-action bg-light"><b>Pengenalan SQL</b></a>
+                <div class="list-group list-group-flush">
+                    <a href="page1.php" class="list-group-item list-group-item-action bg-primary text-white">Tipe Data Pada
+                        SQL</a>
+                    <a href="page2.php" class="list-group-item list-group-item-action bg-light">Mendefinisikan Tabel</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Primary dan Foreign Key</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Mengubah dan Menghapus Tabel</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Menampilkan Data Pada Tabel</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Menmpilkan Data Dengan Kondisi</a>
+                </div>
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -49,12 +59,12 @@
         <div id="page-content-wrapper">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
-                <button class="btn btn-light" id="menu-toggle">Materi</button>
+                <button class="btn btn-light" id="menu-toggle"><i class="fas fa-book-open"></i></button>
 
                 <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,8 +72,7 @@
                     </ul>
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link text-white" href="index.php">Beranda <span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link text-white" href="index.php">Beranda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="kelas.php">Kelas</a>

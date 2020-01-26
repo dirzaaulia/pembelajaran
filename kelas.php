@@ -40,39 +40,28 @@
 
     <div class="d-flex" id="wrapper">
 
-        <!-- Sidebar -
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading"><b>Introduction To SQL</b></div>
-      <div class="list-group list-group-flush">
-        <a href="page1.php" class="list-group-item list-group-item-action bg-dark text-white">Tipe Data Pada SQL</a>
-        <a href="page2.php" class="list-group-item list-group-item-action bg-light">Mendefinisikan Tabel</a>
-      </div>
-    </div> -->
-        <!-- /#sidebar-wrapper -->
-
         <!-- Page Content -->
         <div id="page-content-wrapper">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
-                <!-- <button class="btn btn-light" id="menu-toggle"><span class="navbar-toggler-icon"></span></button> -->
-
+                
                 <div class="container">
-                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
+                    <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fas fa-bars"></i>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <a class="navbar-brand text-white" href="#"><b>Learning Management System</b></a>
                         </ul>
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item active">
-                                <a class="nav-link text-white" href="index.php">Beranda <span
-                                        class="sr-only">(current)</span></a>
+                                <a class="nav-link text-white" href="index.php">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="kelas.php">Kelas</a>
+                                <a class="nav-link text-white" href="kelas.php"><b>Kelas</b></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
@@ -104,9 +93,10 @@
                             Basis Data 1
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <p class="card-text">Di kelas Basis Data 1, kamu akan diperkenalkan dengan relational
+                                database, aljabar relational, mendesain database beserta gambaran relasinya pada
+                                Entity Relationship Diagram serta bagaimana mengimplementasikannya.
+                            </p>
                             <a href="page1.php" class="btn btn-outline-primary btn-sm ml-auto" role="button"
                                 aria-pressed="true">Lanjutkan</a>
                         </div>
@@ -127,10 +117,10 @@
                         <div class="card">
                             <div class="card-header bg-primary text-white">Basis Data 2</div>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.ASJLFJSALHFSAJLHASFDLKJASLHFASLKFLSKAJFJLKSA</p>
+                                <p class="card-text">Setelah kamu mendapatkan pengenalan database pada Basis Data 1
+                                    kemudian di Basis Data 2 ini kamu akan mengimplementasikan database tersebut secara
+                                    nyata pada suatu Database Management System (DBMS) dan bagaimana cara - cara
+                                    implementasinya.</p>
                                 <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button"
                                     aria-pressed="true">Lanjutkan</a>
                             </div>
@@ -144,10 +134,9 @@
                         <div class="card">
                             <div class="card-header bg-primary text-white">Algoritma dan Pemrograman</div>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.ASJLFJSALHFSAJLHASFDLKJASLHFASLKFLSKAJFJLKSA</p>
+                                <p class="card-text">Pada kelas Algoritma dan Pemrograman ini kamu akan diperkenalkan
+                                    dengan apa itu algoritma dan mengimplementasikan algoritma tersebut dengan suatu
+                                    bahasa pemrograman.</p>
                                 <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button"
                                     aria-pressed="true">Lanjutkan</a>
                             </div>
@@ -161,10 +150,7 @@
                         <div class="card">
                             <div class="card-header bg-primary text-white">Struktur Data</div>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.ASJLFJSALHFSAJLHASFDLKJASLHFASLKFLSKAJFJLKSA</p>
+                                <p class="card-text">Pada kelas Struktur Data kamu akan mempelajari bagaimana melakukan pengolahan data dengan berbagai jenis struktur data seperti Array, Queue dan Linked List dan bagaimana cara mengimplementasikannya.</p>
                                 <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button"
                                     aria-pressed="true">Lanjutkan</a>
                             </div>

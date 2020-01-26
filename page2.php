@@ -10,11 +10,11 @@
     <!-- Bootstrap core JavaScript 
     <script src="vendor/jquery/jquery.min.js"></script>
     < <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
 
     <!-- Bootstrap core CSS 
@@ -28,6 +28,9 @@
     <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/53871d42e6.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -36,11 +39,18 @@
 
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading"><b>Introduction To SQL</b></div>
+            <div class="sidebar-heading"><b>Basis Data 1</b></div>
             <div class="list-group list-group-flush">
-                <a href="page1.php" class="list-group-item list-group-item-action">Tipe Data Pada SQL</a>
-                <a href="page2.php" class="list-group-item list-group-item-action bg-primary text-white">Mendefinisikan
-                    Tabel</a>
+                <a href="page1.php" class="list-group-item list-group-item-action bg-light"><b>Pengenalan SQL</b></a>
+                <div class="list-group list-group-flush">
+                    <a href="page1.php" class="list-group-item list-group-item-action bg-light">Tipe Data Pada
+                        SQL</a>
+                    <a href="page2.php" class="list-group-item list-group-item-action bg-primary text-white">Mendefinisikan Tabel</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Primary dan Foreign Key</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Mengubah dan Menghapus Tabel</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Menampilkan Data Pada Tabel</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Menmpilkan Data Dengan Kondisi</a>
+                </div>
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -49,12 +59,12 @@
         <div id="page-content-wrapper">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
-                <button class="btn btn-light" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
+                <button class="btn btn-light" id="menu-toggle"><i class="fas fa-book-open"></i></button>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,14 +72,14 @@
                     </ul>
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link text-white" href="#">Beranda <span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-white" href="index.php">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Kelas</a>
+                            <a class="nav-link text-white" href="kelas.php">Kelas</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 James Bond
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -129,16 +139,18 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">Jawaban</span>
+                    <form action="" method="POST">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Jawaban</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Ketik jawaban" aria-label="Jawaban"
+                                aria-describedby="basic-addon1" required="true">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="submit">Submit</button>
+                            </div>
                         </div>
-                        <input type="text" class="form-control" placeholder="Ketik jawaban" aria-label="Jawaban"
-                            aria-describedby="basic-addon1">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">Submit</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
                 <div class="d-flex flex-column">
                     <b>File Pendukung</b>
