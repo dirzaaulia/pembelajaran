@@ -10,12 +10,8 @@
     <!-- Bootstrap core JavaScript 
     <script src="vendor/jquery/jquery.min.js"></script>
     < <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
     <!-- Bootstrap core CSS 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -78,15 +74,15 @@
                             <a class="nav-link text-white" href="kelas.php">Kelas</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle text-white" href="" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 James Bond
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Akun</a>
-                                <a class="dropdown-item" href="#">Pengaturan</a>
+                                <a class="dropdown-item" href="">Akun</a>
+                                <a class="dropdown-item" href="">Pengaturan</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Keluar</a>
+                                <a class="dropdown-item" href="">Keluar</a>
                             </div>
                         </li>
                     </ul>
@@ -160,17 +156,11 @@
                     <button class="btn btn-outline-primary" id="menu-toggle">Selanjutnya</button>
                 </div>
             </div>
-
         </div>
         <!-- /#page-content-wrapper -->
-
     </div>
     <!-- /#wrapper -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    
     <!-- Menu Toggle Script -->
     <script>
         $("#menu-toggle").click(function (e) {
