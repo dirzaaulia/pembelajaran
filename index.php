@@ -4,7 +4,8 @@
 <head>
 
     <title>Pembelajaran</title>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap core JavaScript 
     <script src="vendor/jquery/jquery.min.js"></script>
     < <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
@@ -55,15 +56,13 @@
                 <!-- <button class="btn btn-light" id="menu-toggle"><span class="navbar-toggler-icon"></span></button> -->
 
                 <div class="container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        </ul>
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="index.php"><b>Beranda</b></a>
@@ -105,9 +104,9 @@
                 </div>
                 <div class="row">
                     <div class="col-3">
-                        <div class="d-flex" id="wrapper">
+                        
                             <!-- Sidebar -->
-                            <div class="border-right" id="sidebar-wrapper">
+                         
                                 <div class="sidebar-heading"><b>Basis Data</b></div>
                                 <div class="list-group list-group-flush">
                                     <a href="#" class="list-group-item list-group-item-action">Basis Data 1</a>
@@ -122,9 +121,7 @@
                                     <a href="#" class="list-group-item list-group-item-action">Aplikasi Web I</a>
                                     <a href="#" class="list-group-item list-group-item-action">Aplikasi Web II</a>
                                 </div>
-                            </div>
                             <!-- /#sidebar-wrapper -->
-                        </div>
                     </div>
                     <div class="col-9">
                         <div class="card mb-3">
