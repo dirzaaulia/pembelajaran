@@ -5,7 +5,7 @@
 
     <title>Pembelajaran</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <!-- Bootstrap core JavaScript 
     <script src="vendor/jquery/jquery.min.js"></script>
     < <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-4">
                         <div class="sidebar-heading"><b>Basis Data</b></div>
                         <div class="list-group list-group-flush">
                             <a href="#" class="list-group-item list-group-item-action">Basis Data 1</a>
@@ -119,7 +119,7 @@
                             <a href="#" class="list-group-item list-group-item-action">Aplikasi Web II</a>
                         </div>
                     </div>
-                    <div class="col-9">
+                    <div class="col-8">
                         <div class="card mb-3">
                             <h5 class="card-header bg-primary text-white">Basis Data 1</h5>
                             <div class="card-body">
