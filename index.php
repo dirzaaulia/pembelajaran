@@ -104,24 +104,20 @@
                 </div>
                 <div class="row">
                     <div class="col-3">
-                        
-                            <!-- Sidebar -->
-                         
-                                <div class="sidebar-heading"><b>Basis Data</b></div>
-                                <div class="list-group list-group-flush">
-                                    <a href="#" class="list-group-item list-group-item-action">Basis Data 1</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Basis Data 2</a>
-                                </div>
-                                <div class="sidebar-heading mt-3"><b>Pemrograman</b></div>
-                                <div class="list-group list-group-flush">
-                                    <a href="#" class="list-group-item list-group-item-action">Algoritma dan Pemrograman</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Struktur Data</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Pemrograman Visual</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Pemrograman Mobile</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Aplikasi Web I</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Aplikasi Web II</a>
-                                </div>
-                            <!-- /#sidebar-wrapper -->
+                        <div class="sidebar-heading"><b>Basis Data</b></div>
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Basis Data 1</a>
+                            <a href="#" class="list-group-item list-group-item-action">Basis Data 2</a>
+                        </div>
+                        <div class="sidebar-heading mt-3"><b>Pemrograman</b></div>
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Algoritma dan Pemrograman</a>
+                            <a href="#" class="list-group-item list-group-item-action">Struktur Data</a>
+                            <a href="#" class="list-group-item list-group-item-action">Pemrograman Visual</a>
+                            <a href="#" class="list-group-item list-group-item-action">Pemrograman Mobile</a>
+                            <a href="#" class="list-group-item list-group-item-action">Aplikasi Web I</a>
+                            <a href="#" class="list-group-item list-group-item-action">Aplikasi Web II</a>
+                        </div>
                     </div>
                     <div class="col-9">
                         <div class="card mb-3">
