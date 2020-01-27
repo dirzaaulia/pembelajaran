@@ -43,13 +43,15 @@
             <div class="list-group list-group-flush">
                 <a href="page1.php" class="list-group-item list-group-item-action bg-light"><b>Pengenalan SQL</b></a>
                 <div class="list-group list-group-flush">
-                    <a href="page1.php" class="list-group-item list-group-item-action bg-primary text-white">Tipe Data Pada
+                    <a href="page1.php" class="list-group-item list-group-item-action bg-primary text-white">Tipe Data
+                        Pada
                         SQL</a>
                     <a href="page2.php" class="list-group-item list-group-item-action bg-light">Mendefinisikan Tabel</a>
                     <a href="#" class="list-group-item list-group-item-action bg-light">Primary dan Foreign Key</a>
                     <a href="#" class="list-group-item list-group-item-action bg-light">Mengubah dan Menghapus Tabel</a>
                     <a href="#" class="list-group-item list-group-item-action bg-light">Menampilkan Data Pada Tabel</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-light">Menmpilkan Data Dengan Kondisi</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-light">Menmpilkan Data Dengan
+                        Kondisi</a>
                 </div>
             </div>
         </div>
@@ -60,7 +62,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
                 <button class="btn btn-light" id="menu-toggle"><i class="fas fa-book-open"></i></button>
-
+                <a class="navbar-brand text-white mr-auto ml-2" href="#"><b>Learning Management System</b></a>
                 <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -109,18 +111,20 @@
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>char(n)</td>
                             <td>varchar(n)</td>
+                            <td>Menyimpan data string dengan panjang yang akan menyesuaikan sesuai variabelnya. n
+                                ditentukan oleh user</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
+                            <td>int</td>
+                            <td>Integer menyimpan data angka bilangan bulat.</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Larry the Bird</td>
-                            <td>Data</td>
+                            <td>Float(n)</td>
+                            <td>Menyimpan data angka desimal dengan n ditentukan oleh user sebagai seberapa banyak angka
+                                dibelakang koma</td>
                         </tr>
                     </tbody>
                 </table>
@@ -130,7 +134,8 @@
                 </div>
                 <div class="d-flex flex-column mt-5">
                     <b>File Pendukung</b>
-                    <div class="p-2 bg-dark text-white">PDF - Download Link</div>
+                    <div class="p-2 bg-dark text-white"><i class="far fa-file-pdf"></i> - <a href="/ch3 SQL.pdf"
+                            download="Chapter 3 - SQL.pdf" class=""><b>Chapter 3 - SQL.pdf</b></a></div>
                 </div>
                 <div class="row justify-content-end mt-4 mb-4">
                     <a href="page2.php" class="btn btn-outline-primary" role="button"

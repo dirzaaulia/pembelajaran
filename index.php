@@ -42,15 +42,16 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
 
                 <div class="container">
-                    <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
+                    <button class="navbar-toggler bg-light mr-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
                     </button>
-
+                    <a class="navbar-brand text-white mr-auto" href="#"><b>Learning Management System</b></a>
+                
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <a class="navbar-brand text-white" href="#"><b>Learning Management System</b></a>
+                         
                         </ul>
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item active">

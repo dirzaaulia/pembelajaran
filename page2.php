@@ -102,7 +102,7 @@
                     <div class="card-body"><code>create table</code> mahasiswa (nim int, nama varchar(50))</div>
                 </div>
                 <div class="mt-5" style="position:relative;padding-top:56.25%;">
-                    <iframe src="https://www.youtube.com/embed/nckseQJ1Nlg" frameborder="0" allowfullscreen
+                    <iframe src="https://youtube.com/embed/xA768L5jfvc" frameborder="0" allowfullscreen
                         style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
                 </div>
                 <div class="alert alert-secondary mt-5">
@@ -150,7 +150,8 @@
                 </div>
                 <div class="d-flex flex-column">
                     <b>File Pendukung</b>
-                    <div class="p-2 bg-dark text-white">PDF - Download Link</div>
+                    <div class="p-2 bg-dark text-white"><i class="far fa-file-pdf"></i> - <a href="/ch3 SQL.pdf"
+                        download="Chapter 3 - SQL.pdf" class=""><b>Chapter 3 - SQL.pdf</b></a></div>
                 </div>
                 <div class="row justify-content-end mt-4 mb-4">
                     <button class="btn btn-outline-primary" id="menu-toggle">Selanjutnya</button>
