@@ -56,7 +56,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
                 <button class="btn btn-light" id="menu-toggle"><i class="fas fa-book-open"></i></button>
-
+                <a class="navbar-brand text-white mr-auto ml-2" href="#"><b>Learning Management System</b></a>
                 <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
