@@ -4,7 +4,6 @@
 <head>
 
     <title>Pembelajaran</title>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <!-- Bootstrap core JavaScript 
@@ -31,9 +30,6 @@
     <!-- Font Awesome Icon -->
     <script src="https://kit.fontawesome.com/53871d42e6.js" crossorigin="anonymous"></script>
 
-
-
-
 </head>
 
 <body>
@@ -44,7 +40,7 @@
         <div id="page-content-wrapper">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
-                
+
                 <div class="container">
                     <button class="navbar-toggler bg-light mr-auto" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,20 +48,21 @@
                     <i class="fas fa-bars"></i>
                     </button>
                     <a class="navbar-brand text-white mr-auto" href="#"><b>Learning Management System</b></a>
-
+                
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                         
                         </ul>
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item active">
-                                <a class="nav-link text-white" href="home.php">Beranda</a>
+                                <a class="nav-link text-white" href="home.php"><b>Beranda</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="kelas.php"><b>Kelas</b></a>
+                                <a class="nav-link text-white" href="kelas.php">Kelas</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     James Bond
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -82,83 +79,64 @@
 
             <div class="container">
                 <div class="row mt-5">
-                    <h3 class="text-primary">Kelas Yang Diikuti</h3>
+                    <h3 class="text-primary">Daftar Mata Kuliah</h3>
                 </div>
-                <div class="row mt-2">
-                    <span><b>Aktivitas Terakhir</b></span>
-                </div>
-                <div class="row mt-2">
-                    <div class="card w-100">
-                        <div class="card-header bg-primary text-white">
-                            Basis Data 1
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Di kelas Basis Data 1, kamu akan diperkenalkan dengan relational
-                                database, aljabar relational, mendesain database beserta gambaran relasinya pada
-                                Entity Relationship Diagram serta bagaimana mengimplementasikannya.
-                            </p>
-                            <a href="page1.php" class="btn btn-outline-primary btn-sm ml-auto" role="button"
-                                aria-pressed="true">Lanjutkan</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Terakhir kali diikuti 25 Januari 2020 - 16:06 WIB</small>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                                    aria-valuemin="0" aria-valuemax="100">25%</div>
-                            </div>
+                <form action="" method="POST">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Pencarian" aria-label="Pencarian"
+                            aria-describedby="button-addon2" required="true">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-primary" type="submit" id="button-addon2" name="buttonCari" id="buttonCari">
+                                <i class="fas fa-search"></i>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <span><b>Mata Kuliah Yang Diikuti</b></span>
-                </div>
-                <div class="row mt-2">
-                    <div class="card-deck">
-                        <div class="card">
-                            <div class="card-header bg-primary text-white">Basis Data 2</div>
+                </form>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="sidebar-heading"><b>Basis Data</b></div>
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Basis Data 1</a>
+                            <a href="#" class="list-group-item list-group-item-action">Basis Data 2</a>
+                        </div>
+                        <div class="sidebar-heading mt-3"><b>Pemrograman</b></div>
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Algoritma dan Pemrograman</a>
+                            <a href="#" class="list-group-item list-group-item-action">Struktur Data</a>
+                            <a href="#" class="list-group-item list-group-item-action">Pemrograman Visual</a>
+                            <a href="#" class="list-group-item list-group-item-action">Pemrograman Mobile</a>
+                            <a href="#" class="list-group-item list-group-item-action">Aplikasi Web I</a>
+                            <a href="#" class="list-group-item list-group-item-action">Aplikasi Web II</a>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="card mb-3">
+                            <h5 class="card-header bg-primary text-white">Basis Data 1</h5>
+                            <div class="card-body">
+                                <p class="card-text">Di kelas Basis Data 1, kamu akan diperkenalkan dengan relational
+                                    database, aljabar relational, mendesain database beserta gambaran relasinya pada
+                                    Entity Relationship Diagram serta bagaimana mengimplementasikannya.
+                                </p>
+                                <a href="kelas.php" class="btn btn-outline-primary">Daftar</a>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <h5 class="card-header bg-primary text-white">Basis Data 2</h5>
                             <div class="card-body">
                                 <p class="card-text">Setelah kamu mendapatkan pengenalan database pada Basis Data 1
                                     kemudian di Basis Data 2 ini kamu akan mengimplementasikan database tersebut secara
                                     nyata pada suatu Database Management System (DBMS) dan bagaimana cara - cara
                                     implementasinya.</p>
-                                <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button"
-                                    aria-pressed="true">Lanjutkan</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Terakhir kali diikuti 24 Januari 2020 - 13:03 WIB</small>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 10%;"></div>
-                                </div>
+                                <a href="kelas.php" class="btn btn-outline-primary">Daftar</a>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header bg-primary text-white">Algoritma dan Pemrograman</div>
+                        <div class="card mb-3">
+                            <h5 class="card-header bg-primary text-white">Algoritma dan Pemrograman</h5>
                             <div class="card-body">
                                 <p class="card-text">Pada kelas Algoritma dan Pemrograman ini kamu akan diperkenalkan
                                     dengan apa itu algoritma dan mengimplementasikan algoritma tersebut dengan suatu
                                     bahasa pemrograman.</p>
-                                <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button"
-                                    aria-pressed="true">Lanjutkan</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Terakhir kali diikuti 23 Januari 2020 - 12:02 WIB</small>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 5%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header bg-primary text-white">Struktur Data</div>
-                            <div class="card-body">
-                                <p class="card-text">Pada kelas Struktur Data kamu akan mempelajari bagaimana melakukan pengolahan data dengan berbagai jenis struktur data seperti Array, Queue dan Linked List dan bagaimana cara mengimplementasikannya.</p>
-                                <a href="#" class="btn btn-outline-primary btn-sm ml-auto" role="button"
-                                    aria-pressed="true">Lanjutkan</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Terakhir kali diikuti 22 Januari 2020 - 11:01 WIB</small>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 1%;"></div>
-                                </div>
+                                <a href="kelas.php" class="btn btn-outline-primary">Daftar</a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +155,5 @@
             $("#wrapper").toggleClass("toggled");
         });
     </script>
-
 </body>
-
 </html>

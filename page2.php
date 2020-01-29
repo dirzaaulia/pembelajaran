@@ -68,7 +68,7 @@
                     </ul>
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link text-white" href="index.php">Beranda</a>
+                            <a class="nav-link text-white" href="home.php">Beranda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="kelas.php">Kelas</a>
