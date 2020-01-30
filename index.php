@@ -60,7 +60,7 @@
                             <a href="home.php" class="btn btn-primary btn-block text-uppercase">Sign In</a>
                         </form>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer bg-white">
                         <a href="home.php" class="btn btn-block btn-outline-success text-uppercase"><i class="fab fa-google mr-2"></i> Sign in dengan Google</a>
                         <a href="home.php" class="btn btn-block btn-outline-primary text-uppercase"><i class="fab fa-facebook-f mr-2"></i> Sign in dengan Facebook</a>
                         <hr>
