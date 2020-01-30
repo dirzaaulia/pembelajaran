@@ -44,32 +44,60 @@
                         <h1 class="text-white">Learning Management System</h1>
                     </div>
                     <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Email">
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin" role="tab" aria-controls="signin" aria-selected="true"><b>Sign In</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false"><b>Daftar</b></a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="signin" role="tabpanel" aria-labelledby="signin-tab">
+                                <form class="my-3">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        <a href=""><small id="passwordForget" class="form-text text-muted">Lupa Password?</small></a>
+                                    </div>
+                                    <div class="form-group w-100">
+                                        <div class="g-recaptcha" data-sitekey="6Lc7IdQUAAAAAPjCKumJ6Iyu5CADLXiAY-cbfBZI"></div>
+                                    </div>
+                                    <a href="home.php" class="btn btn-primary btn-block text-uppercase">Sign In</a>
+                                </form>
+                                <div class="card-footer bg-white">
+                                    <a href="home.php" class="btn btn-block btn-outline-success text-uppercase"><i class="fab fa-google mr-2"></i> Sign in dengan Google</a>
+                                    <a href="home.php" class="btn btn-block btn-outline-primary text-uppercase"><i class="fab fa-facebook-f mr-2"></i> Sign in dengan Facebook</a>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
-                                <a href=""><small id="passwordForget" class="form-text text-muted">Lupa Password?</small></a>
+
+                            <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                <form class="my-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nama Lengkap">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <a href="" class="btn btn-primary btn-block text-uppercase">Daftarkan Akun</a>
+                                </form>
+                                <div class="card-footer bg-white">
+                                    <a href="" class="btn btn-block btn-outline-success text-uppercase"><i class="fab fa-google mr-2"></i> Daftar dengan Google</a>
+                                    <a href="" class="btn btn-block btn-outline-primary text-uppercase"><i class="fab fa-facebook-f mr-2"></i> Daftar dengan Facebook</a>
+                                </div>
                             </div>
-                            <div class="form-group w-100">
-                                <div class="g-recaptcha" data-sitekey="6Lc7IdQUAAAAAPjCKumJ6Iyu5CADLXiAY-cbfBZI"></div>
-                            </div>
-                            <a href="home.php" class="btn btn-primary btn-block text-uppercase">Sign In</a>
-                        </form>
-                    </div>
-                    <div class="card-footer bg-white">
-                        <a href="home.php" class="btn btn-block btn-outline-success text-uppercase"><i class="fab fa-google mr-2"></i> Sign in dengan Google</a>
-                        <a href="home.php" class="btn btn-block btn-outline-primary text-uppercase"><i class="fab fa-facebook-f mr-2"></i> Sign in dengan Facebook</a>
-                        <hr>
-                        <small class="form-text text-muted">Belum memiliki akun?</small>
-                        <a href="home.php" class="btn btn-block btn-outline-secondary text-uppercase">Daftarkan Akun</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
 </html>
