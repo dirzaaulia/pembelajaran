@@ -30,36 +30,46 @@
     <!-- Font Awesome Icon -->
     <script src="https://kit.fontawesome.com/53871d42e6.js" crossorigin="anonymous"></script>
 
+    <!-- Google Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <body class="bg-primary">
     <div class="container">
-        <div class="row d-flex justify-content-center mt-5"></div>
-        <div class="row d-flex justify-content-center mt-5"></div>
-        <div class="row d-flex justify-content-center mt-5 text-white">
-            <h1>Learning Management System</h1>
-        </div>
-    </div>
-    <div class="container w-25 mt-3">
-        <div class="row d-flex justify-content-center align-self-center bg-white" style="border-radius: 1%;">
-            <form class="mt-5 mb-5 w-75">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="username" aria-describedby="emailHelp"
-                        placeholder="Username">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card my-5">
+                    <div class="card-header bg-primary text-center">
+                        <h1 class="text-white">Learning Management System</h1>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                                <a href=""><small id="passwordForget" class="form-text text-muted">Lupa Password?</small></a>
+                            </div>
+                            <div class="form-group w-100">
+                                <div class="g-recaptcha" data-sitekey="6Lc7IdQUAAAAAPjCKumJ6Iyu5CADLXiAY-cbfBZI"></div>
+                            </div>
+                            <a href="home.php" class="btn btn-primary btn-block text-uppercase">Sign In</a>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <a href="home.php" class="btn btn-block btn-outline-success text-uppercase"><i class="fab fa-google mr-2"></i> Sign in dengan Google</a>
+                        <a href="home.php" class="btn btn-block btn-outline-primary text-uppercase"><i class="fab fa-facebook-f mr-2"></i> Sign in dengan Facebook</a>
+                        <hr>
+                        <small class="form-text text-muted">Belum memiliki akun?</small>
+                        <a href="home.php" class="btn btn-block btn-outline-secondary text-uppercase">Daftarkan Akun</a>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" id="password" placeholder="Password">
-                    <a href="#" class="text-decoration-none">
-                        <small id="passwordHelp" class="form-text text-muted">Lupa Password?</small>
-                    </a>
-                </div>
-                <a href="home.php" class="btn btn-primary btn-block"><b>Login</b></a>
-                <hr class="w-100">
-                <a href="home.php" class="btn btn-outline-primary btn-block"><i class="fab fa-facebook-square"></i><b> | Login dengan Facebook</b></a>
-                <a href="home.php" class="btn btn-outline-success btn-block"><i class="fab fa-google"></i><b> | Login dengan Google</b></a>
-            </form>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
